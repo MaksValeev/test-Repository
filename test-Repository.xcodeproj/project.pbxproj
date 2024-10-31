@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3811819A2CCD6596004C2B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381181912CCD6596004C2B08 /* AppDelegate.swift */; };
 		3811819B2CCD6596004C2B08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381181962CCD6596004C2B08 /* SceneDelegate.swift */; };
-		3811819C2CCD6596004C2B08 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381181972CCD6596004C2B08 /* Service.swift */; };
 		3811819D2CCD6596004C2B08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381181982CCD6596004C2B08 /* ViewController.swift */; };
 		3811819E2CCD6596004C2B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381181922CCD6596004C2B08 /* Assets.xcassets */; };
 		381181A02CCD6596004C2B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381181952CCD6596004C2B08 /* LaunchScreen.storyboard */; };
@@ -24,7 +23,6 @@
 		381181932CCD6596004C2B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		381181942CCD6596004C2B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		381181962CCD6596004C2B08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		381181972CCD6596004C2B08 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		381181982CCD6596004C2B08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EFFE2D5E3218C92B51B6A63 /* Pods-test-Repository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-Repository.release.xcconfig"; path = "Target Support Files/Pods-test-Repository/Pods-test-Repository.release.xcconfig"; sourceTree = "<group>"; };
 		5EF385B4E13C595415F13912 /* Pods_test_Repository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Repository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +46,6 @@
 				0D43264EA3B4059EC868825C /* Pods-test-Repository.debug.xcconfig */,
 				3EFFE2D5E3218C92B51B6A63 /* Pods-test-Repository.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,7 +75,6 @@
 				381181932CCD6596004C2B08 /* Info.plist */,
 				381181952CCD6596004C2B08 /* LaunchScreen.storyboard */,
 				381181962CCD6596004C2B08 /* SceneDelegate.swift */,
-				381181972CCD6596004C2B08 /* Service.swift */,
 				381181982CCD6596004C2B08 /* ViewController.swift */,
 			);
 			path = "test-Repository";
@@ -130,6 +126,7 @@
 				};
 			};
 			buildConfigurationList = 381181632CCD5BC5004C2B08 /* Build configuration list for PBXProject "test-Repository" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -207,7 +204,6 @@
 			files = (
 				3811819A2CCD6596004C2B08 /* AppDelegate.swift in Sources */,
 				3811819B2CCD6596004C2B08 /* SceneDelegate.swift in Sources */,
-				3811819C2CCD6596004C2B08 /* Service.swift in Sources */,
 				3811819D2CCD6596004C2B08 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,7 +315,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -382,7 +378,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
